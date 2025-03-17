@@ -27,7 +27,7 @@ void main() {
   }
 }
 
-/// دالة لإدخال الكود والتحقق منه
+/// Code check validation
 int? getActiveCode() {
   print("\nPlease enter your Active Code:");
   String? input = stdin.readLineSync();
